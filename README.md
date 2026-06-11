@@ -37,9 +37,9 @@ Two plugins do the heavy lifting. Both auto-enable on first run:
 
 This kit gets you 80% of the way.
 
-The other 20% — connecting Supabase, Trigger.dev, Vercel, building real features, debugging when things go sideways, writing your own skills — that's inside **[School Name]**.
+The other 20% — connecting Supabase, Trigger.dev, Vercel, building real features, debugging when things go sideways, writing your own skills — that's inside **AI Kreator Academy**.
 
-→ [Join the community](https://your-school-link.com)
+→ [Join the AKA community](https://www.skool.com/aka)
 
 ## License
 MIT
