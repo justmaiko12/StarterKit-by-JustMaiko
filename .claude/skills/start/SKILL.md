@@ -24,12 +24,21 @@ Replace the four `[PLACEHOLDER]` values in the **Project Info** section of `CLAU
 
 ### 4. Teach — tailor to their level
 
-**Beginner** — explain 3 commands, one example each:
+**Beginner** - explain the five starter skills briefly, one example each:
 - `superpowers:brainstorming` — "We use this to scope what you're building before any code."
-- `superpowers:writing-plans` — "Turns the brainstorm into a checklist."
-- `superpowers:executing-plans` — "Builds the plan with checkpoints so you can stop anytime."
+- `ui-ux-pro-max` — "Use this when you want feedback on a screen or app flow."
+- `skill-creator` — "Use this when you keep repeating the same instructions."
+- `claudex-sync` — "Use this when you switch between Claude Code and Codex."
+- `devils-advocate` — "Use this before shipping or after a major change."
 
-**Intermediate** — list 5 commands tersely. Mention devil's advocate and `codex:rescue`.
+**Intermediate** - list these commands tersely:
+- `superpowers:brainstorming`
+- `superpowers:writing-plans`
+- `superpowers:executing-plans`
+- `superpowers:systematic-debugging`
+- `ui-ux-pro-max`
+- `devils-advocate`
+- `codex:rescue`
 
 **Advanced** — one line: "You know the drill. Everything's in CLAUDE.md."
 

@@ -1,45 +1,88 @@
 # Michael's Starter Kit
 
-The exact Claude Code setup I use to ship products fast.
+One starter kit for Claude Code or Codex.
+
+Use Claude Code if you want slash-command flow. Use Codex if you want Codex's
+project-context flow. The project setup, handoff file, and starter skills are
+the same.
 
 ## What you get
-- Pre-configured Claude Code with the skills that matter
-- A first-run interview that orients Claude to YOUR project
+
+- First-run onboarding for Claude Code and Codex
 - Teaching mode so you learn the system as you build
+- Five starter skills/workflows from the Day 3 lesson
+- A shared handoff file so sessions do not start from zero
 
-## Setup (3 steps)
+## Setup
 
-1. Click **Use this template** → clone to your machine
-2. Open the folder in **VS Code**
-3. Open **Claude Code** and type `/start`
+1. Click **Use this template** and clone it to your machine.
+2. Open the folder in your coding tool.
+3. Choose your path:
 
-That's it. Claude interviews you, sets up the project, and suggests your first move.
+### Claude Code path
+
+Open Claude Code in this folder and type:
+
+```text
+/start
+```
+
+Claude interviews you, updates `CLAUDE.md`, and suggests your first move.
+
+### Codex path
+
+Open Codex in this folder and paste the prompt from:
+
+```text
+prompts/codex-start.md
+```
+
+Codex interviews you, updates `AGENTS.md`, and suggests your first move.
 
 ## What's inside
 
-```
+```text
 .claude/
-  settings.json        # permissions + enabled plugins
-  skills/start/        # the onboarding interview
-CLAUDE.md              # Claude's brain — how to behave in this project
-HANDOFF.md             # session continuity — updated when you say "wrap up"
-.env.example           # env vars template
+  settings.json                  # Claude Code permissions + plugins
+  skills/start/SKILL.md          # Claude first-run interview
+  skills/ui-ux-pro-max/SKILL.md  # screen and UX review
+  skills/skill-creator/SKILL.md  # turn repeated process into a skill
+  skills/claudex-sync/SKILL.md   # keep Claude/Codex handoffs aligned
+  skills/devils-advocate/SKILL.md # pushback and review pass
+skills/
+  *.md                           # Codex-readable versions of the starter skills
+prompts/
+  codex-start.md                 # first prompt for Codex users
+docs/
+  choose-your-agent.md           # Claude Code vs Codex
+  skills.md                      # what each starter skill does
+CLAUDE.md                        # Claude Code project brain
+AGENTS.md                        # Codex project brain
+HANDOFF.md                       # session continuity
+.env.example                     # env var template
 ```
 
-## The skills (installed via plugins)
+## The five starter skills
 
-Two plugins do the heavy lifting. Both auto-enable on first run:
+- **Superpowers** - brainstorm, plan, test, debug, and execute without guessing.
+- **UI/UX Pro Max** - review screens and improve app usability.
+- **Skill Creator** - turn a repeated process into a reusable skill.
+- **ClaudexSync** - keep Claude Code and Codex aligned through `HANDOFF.md`.
+- **Devils Advocate** - challenge weak assumptions before you ship.
 
-- **superpowers** — brainstorming, TDD, debugging, planning, devil's advocate review
-- **codex** — second-opinion fallback when Claude gets stuck
+Superpowers is installed through the Claude Code plugin settings. The other
+starter skills are included directly in this repo for Claude Code and Codex.
 
 ## Going further
 
 This kit gets you 80% of the way.
 
-The other 20% — connecting Supabase, Trigger.dev, Vercel, building real features, debugging when things go sideways, writing your own skills — that's inside **AI Kreator Academy**.
+The other 20% - connecting Supabase, Trigger.dev, Vercel, building real
+features, debugging when things go sideways, writing your own skills - is
+inside **AI Kreator Academy**.
 
-→ [Join the AKA community](https://www.skool.com/aka)
+Join AKA: https://www.skool.com/aka
 
 ## License
+
 MIT

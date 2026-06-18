@@ -18,7 +18,7 @@ When teaching mode is ON, before invoking any skill, tell the user which skill y
 
 ### Defaults
 - Brainstorm before coding for any feature touching 2+ files
-- Run devil's advocate after major changes
+- Run `devils-advocate` after major changes
 - Use codex:rescue when stuck for more than 2 attempts on the same problem
 - Keep responses terse — no diff summaries, no trailing narration
 
@@ -31,7 +31,10 @@ When teaching mode is ON, before invoking any skill, tell the user which skill y
 | `superpowers:executing-plans` | Build the plan with checkpoints |
 | `superpowers:systematic-debugging` | Something broke |
 | `superpowers:test-driven-development` | Writing any non-trivial logic |
-| Devils Advocate (subagent) | Second pass on completed work |
+| `ui-ux-pro-max` | Review a screen or app flow |
+| `skill-creator` | Turn a repeated process into a reusable skill |
+| `claudex-sync` | Keep Claude Code and Codex aligned through HANDOFF.md |
+| `devils-advocate` | Second pass on completed work |
 | `codex:rescue` | Claude is spinning, get a second opinion |
 
 ## Session protocol
