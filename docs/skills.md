@@ -1,6 +1,7 @@
 # Starter Skills
 
-The starter kit includes five skills/workflows from Day 3.
+The starter kit includes the five skills/workflows from Day 3, plus one
+automation skill for Day 6.
 
 ## Superpowers
 
@@ -27,6 +28,13 @@ Use this when you are switching between Claude Code and Codex. It keeps
 
 Use this before shipping, after a major change, or when you want the AI to push
 back on weak assumptions.
+
+## Trigger.dev Automation Builder
+
+Use this when you want to turn one repeated workflow into a small automation.
+The skill makes the AI plan the trigger, action, destination, test, required
+tools, and secrets before building. It should keep the first version small,
+safe, and easy to inspect.
 
 ## Rule
 

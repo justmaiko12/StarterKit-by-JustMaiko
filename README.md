@@ -10,7 +10,8 @@ the same.
 
 - First-run onboarding for Claude Code and Codex
 - Teaching mode so you learn the system as you build
-- Five starter skills/workflows from the Day 3 lesson
+- The five starter skills/workflows from the Day 3 lesson
+- A Trigger.dev automation skill for Day 6-style workflow builds
 - A shared handoff file so sessions do not start from zero
 
 ## Setup
@@ -49,6 +50,7 @@ Codex interviews you, updates `AGENTS.md`, and suggests your first move.
   skills/skill-creator/SKILL.md  # turn repeated process into a skill
   skills/claudex-sync/SKILL.md   # keep Claude/Codex handoffs aligned
   skills/devils-advocate/SKILL.md # pushback and review pass
+  skills/trigger-dev-automation-builder/SKILL.md # small automations
 skills/
   *.md                           # Codex-readable versions of the starter skills
 prompts/
@@ -73,13 +75,19 @@ HANDOFF.md                       # session continuity
 Superpowers is installed through the Claude Code plugin settings. The other
 starter skills are included directly in this repo for Claude Code and Codex.
 
+## Day 6 automation skill
+
+- **Trigger.dev Automation Builder** - turn one repeated workflow into a small
+  safe Trigger.dev automation. It teaches the AI to map the trigger, action,
+  destination, test, required tools, and secrets before building.
+
 ## Going further
 
 This kit gets you 80% of the way.
 
-The other 20% - connecting Supabase, Trigger.dev, Vercel, building real
-features, debugging when things go sideways, writing your own skills - is
-inside **AI Kreator Academy**.
+The other 20% - connecting Supabase, Vercel, building real features, debugging
+when things go sideways, writing deeper custom skills - is inside **AI Kreator
+Academy**.
 
 Join AKA: https://www.skool.com/aka
 

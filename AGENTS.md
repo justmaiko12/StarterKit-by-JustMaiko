@@ -52,6 +52,7 @@ in `skills/` as local instructions:
 | Skill Creator | `skills/skill-creator.md` | Turn repeated instructions into a skill |
 | ClaudexSync | `skills/claudex-sync.md` | Keep Claude Code and Codex aligned |
 | Devils Advocate | `skills/devils-advocate.md` | Challenge weak assumptions before shipping |
+| Trigger.dev Automation Builder | `skills/trigger-dev-automation-builder.md` | Plan and build one small safe automation |
 
 When the user asks for one of these skills, read the matching file and follow it.
 

@@ -35,6 +35,7 @@ When teaching mode is ON, before invoking any skill, tell the user which skill y
 | `skill-creator` | Turn a repeated process into a reusable skill |
 | `claudex-sync` | Keep Claude Code and Codex aligned through HANDOFF.md |
 | `devils-advocate` | Second pass on completed work |
+| `trigger-dev-automation-builder` | Plan and build one small safe automation |
 | `codex:rescue` | Claude is spinning, get a second opinion |
 
 ## Session protocol
