@@ -12,6 +12,7 @@ the same.
 - Teaching mode so you learn the system as you build
 - The five starter skills/workflows from the Day 3 lesson
 - A Trigger.dev automation skill for Day 6-style workflow builds
+- An Interview Me skill for Day 7-style project scoping
 - A shared handoff file so sessions do not start from zero
 
 ## Setup
@@ -51,6 +52,7 @@ Codex interviews you, updates `AGENTS.md`, and suggests your first move.
   skills/claudex-sync/SKILL.md   # keep Claude/Codex handoffs aligned
   skills/devils-advocate/SKILL.md # pushback and review pass
   skills/trigger-dev-automation-builder/SKILL.md # small automations
+  skills/interview-me/SKILL.md   # clarify a rough project idea
 skills/
   *.md                           # Codex-readable versions of the starter skills
 prompts/
@@ -80,6 +82,12 @@ starter skills are included directly in this repo for Claude Code and Codex.
 - **Trigger.dev Automation Builder** - turn one repeated workflow into a small
   safe Trigger.dev automation. It teaches the AI to map the trigger, action,
   destination, test, required tools, and secrets before building.
+
+## Day 7 project skill
+
+- **Interview Me** - turn a rough project idea into a clear version one before
+  building. It teaches the AI to ask one question at a time, make a best guess,
+  separate must-have from later features, and create a simple PRD.
 
 ## Going further
 

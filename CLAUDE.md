@@ -36,6 +36,7 @@ When teaching mode is ON, before invoking any skill, tell the user which skill y
 | `claudex-sync` | Keep Claude Code and Codex aligned through HANDOFF.md |
 | `devils-advocate` | Second pass on completed work |
 | `trigger-dev-automation-builder` | Plan and build one small safe automation |
+| `interview-me` | Clarify a rough project idea before building |
 | `codex:rescue` | Claude is spinning, get a second opinion |
 
 ## Session protocol

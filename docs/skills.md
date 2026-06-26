@@ -1,7 +1,7 @@
 # Starter Skills
 
-The starter kit includes the five skills/workflows from Day 3, plus one
-automation skill for Day 6.
+The starter kit includes the five skills/workflows from Day 3, plus the Day 6
+automation skill and the Day 7 project-scoping skill.
 
 ## Superpowers
 
@@ -35,6 +35,12 @@ Use this when you want to turn one repeated workflow into a small automation.
 The skill makes the AI plan the trigger, action, destination, test, required
 tools, and secrets before building. It should keep the first version small,
 safe, and easy to inspect.
+
+## Interview Me
+
+Use this when your project idea is still messy. The skill makes the AI ask one
+question at a time, include its best guess, and turn your answers into a simple
+version-one PRD before building.
 
 ## Rule
 
