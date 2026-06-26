@@ -5,9 +5,13 @@ automation skill and the Day 7 project-scoping skill.
 
 ## Superpowers
 
-Use this to brainstorm, plan, test, debug, and execute without guessing. In
-Claude Code, this is installed through the Superpowers plugin. In Codex, use
-`skills/superpowers.md` as the local guide.
+Use this to brainstorm, plan, create mockups or wireframes, test, debug, and
+execute without guessing. In Claude Code, this is installed through the
+Superpowers plugin. In Codex, use `skills/superpowers.md` as the local guide.
+
+For Day 7-style projects, use Superpowers after `Interview Me` creates the
+simple PRD. Ask it to show 2-3 mockup directions or describe a wireframe before
+building.
 
 ## UI/UX Pro Max
 

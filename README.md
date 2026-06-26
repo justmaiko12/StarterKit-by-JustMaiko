@@ -68,7 +68,8 @@ HANDOFF.md                       # session continuity
 
 ## The five starter skills
 
-- **Superpowers** - brainstorm, plan, test, debug, and execute without guessing.
+- **Superpowers** - brainstorm, plan, mock up screens, test, debug, and execute
+  without guessing.
 - **UI/UX Pro Max** - review screens and improve app usability.
 - **Skill Creator** - turn a repeated process into a reusable skill.
 - **ClaudexSync** - keep Claude Code and Codex aligned through `HANDOFF.md`.
@@ -88,6 +89,8 @@ starter skills are included directly in this repo for Claude Code and Codex.
 - **Interview Me** - turn a rough project idea into a clear version one before
   building. It teaches the AI to ask one question at a time, make a best guess,
   separate must-have from later features, and create a simple PRD.
+- **Superpowers** - use this after the PRD to create 2-3 mockup or wireframe
+  directions before the AI builds the first version.
 
 ## Going further
 

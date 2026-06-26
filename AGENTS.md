@@ -47,7 +47,7 @@ in `skills/` as local instructions:
 
 | Skill | File | When |
 |-------|------|------|
-| Superpowers | `skills/superpowers.md` | Brainstorm, plan, test, debug, execute |
+| Superpowers | `skills/superpowers.md` | Brainstorm, plan, mock up, test, debug, execute |
 | UI/UX Pro Max | `skills/ui-ux-pro-max.md` | Review a screen or app flow |
 | Skill Creator | `skills/skill-creator.md` | Turn repeated instructions into a skill |
 | ClaudexSync | `skills/claudex-sync.md` | Keep Claude Code and Codex aligned |

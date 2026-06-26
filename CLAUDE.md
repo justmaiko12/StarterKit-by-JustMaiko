@@ -26,7 +26,7 @@ When teaching mode is ON, before invoking any skill, tell the user which skill y
 
 | Skill | When |
 |-------|------|
-| `superpowers:brainstorming` | Scope a new feature before writing code |
+| `superpowers:brainstorming` | Scope a new feature or mockup before writing code |
 | `superpowers:writing-plans` | Turn a brainstorm into a step-by-step plan |
 | `superpowers:executing-plans` | Build the plan with checkpoints |
 | `superpowers:systematic-debugging` | Something broke |
